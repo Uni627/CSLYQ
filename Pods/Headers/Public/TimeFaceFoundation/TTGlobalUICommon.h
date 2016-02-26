@@ -1,0 +1,1 @@
+../../../TimeFaceFoundation/TimeFaceFoundation/Utility/Additions/TTGlobalUICommon.h

@@ -1,0 +1,81 @@
+{
+  "name": "TimeFaceFoundation",
+  "version": "0.5.6",
+  "summary": "时光流影iOS开发框架",
+  "homepage": "https://github.com/TimeFaceCoder/TimeFaceFoundation",
+  "license": "Copyright (C) 2015 TimeFace, Inc.  All rights reserved.",
+  "authors": {
+    "zguanyu": "zhuguanyu@timeface.cn"
+  },
+  "social_media_url": "http://www.timeface.cn",
+  "platforms": {
+    "ios": "7.1"
+  },
+  "source": {
+    "git": "/Item/Project/OpenSourceCode/TimeFaceFoundation"
+  },
+  "source_files": "TimeFaceFoundation/**/*.{h,m,c}",
+  "requires_arc": true,
+  "dependencies": {
+    "SDWebImage": [
+
+    ],
+    "DateTools": [
+
+    ],
+    "JTCalendar": [
+
+    ],
+    "PINRemoteImage": [
+
+    ],
+    "GKFadeNavigationController": [
+
+    ],
+    "JSONModel": [
+
+    ],
+    "SSKeychain": [
+
+    ],
+    "pop": [
+
+    ],
+    "AFNetworking": [
+
+    ],
+    "RETableViewManager": [
+
+    ],
+    "HHRouter": [
+
+    ],
+    "JDStatusBarNotification": [
+
+    ],
+    "NJKWebViewProgress": [
+
+    ],
+    "GPUImage": [
+
+    ],
+    "EGOCache": [
+
+    ],
+    "ActionSheetPicker-3.0": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "SVProgressHUD": [
+
+    ],
+    "FMDB": [
+
+    ],
+    "AnimatedGIFImageSerialization": [
+
+    ]
+  }
+}
