@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '7836108AE883B5DA60B071D0'
+               BlueprintIdentifier = '646D36F1521EBB405CE804EC'
                BlueprintName = 'TFPhotoBrowser'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libTFPhotoBrowser.a'>

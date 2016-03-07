@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "TFSpecsStyle.h"
+#import "RouterHelper.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //初始化style（颜色，字体，还能添加其他）
+    [TFStyle setGlobalStyleSheet:[[TFSpecsStyle alloc] init]];
+
+    //路由申明
+    [[RouterHelper shared] routers];
+
     return YES;
 }
 

@@ -1,0 +1,32 @@
+//
+//  CSLYQ-Prefix.pch
+//  CSLYQ
+//
+//  Created by 罗超 on 16/3/7.
+//  Copyright © 2016年 罗超. All rights reserved.
+//
+
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+//#import <YYImage/YYImage.h>
+#import <TimeFaceFoundation/TimeFaceFoundation.h>
+#import <TimeFaceFoundation/TFModel.h>
+//#import "TimeFacePublicProperty.h"
+//#import "TFInterfaceDef.h"
+#import "CSHeader.h"
+//#import "TFNotificationMacro.h"
+//#import "TFVendorMacro.h"
+//#import "TFLogAgent.h"
+#import "Masonry.h"
+#import "TFSpecsStyle.h"
+//#import "Utility.h"
+//#import "UIAlertController+Blocks.h"
+#endif
+
+/* CSLYQ_Prefix_pch */

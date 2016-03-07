@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import <TimeFaceFoundation/TSubViewController.h>
+@interface ViewController : TSubViewController
 
 
 @end

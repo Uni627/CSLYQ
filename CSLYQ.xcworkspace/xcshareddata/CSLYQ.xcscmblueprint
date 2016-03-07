@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0E8712DBF588C1F9B2D6F1D7C00F5B8D5F7EACD9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "214E8A485D0A1280A36084A7E47BB4004DCFE6DA" : 0,
+    "0E8712DBF588C1F9B2D6F1D7C00F5B8D5F7EACD9" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C4F233AB-14F1-45CA-96B0-B921A12B994C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "214E8A485D0A1280A36084A7E47BB4004DCFE6DA" : "",
+    "0E8712DBF588C1F9B2D6F1D7C00F5B8D5F7EACD9" : "CSLYQ\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CSLYQ",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CSLYQ.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/l13635692453\/CSLYQ.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0E8712DBF588C1F9B2D6F1D7C00F5B8D5F7EACD9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/luochao\/CSLYQ.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "214E8A485D0A1280A36084A7E47BB4004DCFE6DA"
+    }
+  ]
+}

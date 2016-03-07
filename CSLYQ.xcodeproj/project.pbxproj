@@ -14,6 +14,10 @@
 		437F6E0A1C7FF2D60010864D /* CSLYQ.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 437F6E081C7FF2D60010864D /* CSLYQ.xcdatamodeld */; };
 		437F6E0C1C7FF2D60010864D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437F6E0B1C7FF2D60010864D /* Assets.xcassets */; };
 		437F6E0F1C7FF2D60010864D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437F6E0D1C7FF2D60010864D /* LaunchScreen.storyboard */; };
+		43CC11761C8DCD3200DED9CF /* TimeLineTextStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CC11731C8DCD3200DED9CF /* TimeLineTextStyle.m */; };
+		43CC11771C8DCD3200DED9CF /* TFSpecsStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CC11751C8DCD3200DED9CF /* TFSpecsStyle.m */; };
+		43CC117B1C8DCEAD00DED9CF /* RouterHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CC117A1C8DCEAD00DED9CF /* RouterHelper.m */; };
+		43CC117E1C8DCF9900DED9CF /* MakeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CC117D1C8DCF9900DED9CF /* MakeCollectionViewCell.m */; };
 		910059AC0BD02DC547654F34 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C6FDD5747DE3092C4065DC /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +34,16 @@
 		437F6E0B1C7FF2D60010864D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		437F6E0E1C7FF2D60010864D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		437F6E101C7FF2D60010864D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43CC116E1C8DCAF100DED9CF /* CSLYQ-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSLYQ-Prefix.pch"; sourceTree = "<group>"; };
+		43CC11721C8DCD3200DED9CF /* TimeLineTextStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineTextStyle.h; sourceTree = "<group>"; };
+		43CC11731C8DCD3200DED9CF /* TimeLineTextStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineTextStyle.m; sourceTree = "<group>"; };
+		43CC11741C8DCD3200DED9CF /* TFSpecsStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFSpecsStyle.h; sourceTree = "<group>"; };
+		43CC11751C8DCD3200DED9CF /* TFSpecsStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFSpecsStyle.m; sourceTree = "<group>"; };
+		43CC11781C8DCDFF00DED9CF /* CSHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CSHeader.h; path = ViewController/CSHeader.h; sourceTree = "<group>"; };
+		43CC11791C8DCEAD00DED9CF /* RouterHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouterHelper.h; sourceTree = "<group>"; };
+		43CC117A1C8DCEAD00DED9CF /* RouterHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouterHelper.m; sourceTree = "<group>"; };
+		43CC117C1C8DCF9900DED9CF /* MakeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeCollectionViewCell.h; sourceTree = "<group>"; };
+		43CC117D1C8DCF9900DED9CF /* MakeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeCollectionViewCell.m; sourceTree = "<group>"; };
 		C0C6FDD5747DE3092C4065DC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C621B43B0AF61CD2D815D914 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,10 +90,21 @@
 		437F6DFB1C7FF2D60010864D /* CSLYQ */ = {
 			isa = PBXGroup;
 			children = (
+				43CC116F1C8DCD1F00DED9CF /* 小控件 */,
+				43CC11691C8DC22800DED9CF /* 功能 */,
+				43CC116A1C8DC22800DED9CF /* Model */,
+				43CC116B1C8DC22800DED9CF /* Tableveiw */,
+				43CC116C1C8DC22800DED9CF /* View */,
+				43CC116D1C8DC22800DED9CF /* ViewController */,
+				43CC11781C8DCDFF00DED9CF /* CSHeader.h */,
 				437F6DFF1C7FF2D60010864D /* AppDelegate.h */,
 				437F6E001C7FF2D60010864D /* AppDelegate.m */,
 				437F6E021C7FF2D60010864D /* ViewController.h */,
 				437F6E031C7FF2D60010864D /* ViewController.m */,
+				43CC117C1C8DCF9900DED9CF /* MakeCollectionViewCell.h */,
+				43CC117D1C8DCF9900DED9CF /* MakeCollectionViewCell.m */,
+				43CC11791C8DCEAD00DED9CF /* RouterHelper.h */,
+				43CC117A1C8DCEAD00DED9CF /* RouterHelper.m */,
 				437F6E051C7FF2D60010864D /* Main.storyboard */,
 				437F6E0B1C7FF2D60010864D /* Assets.xcassets */,
 				437F6E0D1C7FF2D60010864D /* LaunchScreen.storyboard */,
@@ -94,8 +119,71 @@
 			isa = PBXGroup;
 			children = (
 				437F6DFD1C7FF2D60010864D /* main.m */,
+				43CC116E1C8DCAF100DED9CF /* CSLYQ-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43CC11691C8DC22800DED9CF /* 功能 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "功能";
+			sourceTree = "<group>";
+		};
+		43CC116A1C8DC22800DED9CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		43CC116B1C8DC22800DED9CF /* Tableveiw */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tableveiw;
+			sourceTree = "<group>";
+		};
+		43CC116C1C8DC22800DED9CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		43CC116D1C8DC22800DED9CF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		43CC116F1C8DCD1F00DED9CF /* 小控件 */ = {
+			isa = PBXGroup;
+			children = (
+				43CC11701C8DCD3200DED9CF /* Style */,
+			);
+			path = "小控件";
+			sourceTree = "<group>";
+		};
+		43CC11701C8DCD3200DED9CF /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				43CC11711C8DCD3200DED9CF /* TextStyle */,
+				43CC11741C8DCD3200DED9CF /* TFSpecsStyle.h */,
+				43CC11751C8DCD3200DED9CF /* TFSpecsStyle.m */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		43CC11711C8DCD3200DED9CF /* TextStyle */ = {
+			isa = PBXGroup;
+			children = (
+				43CC11721C8DCD3200DED9CF /* TimeLineTextStyle.h */,
+				43CC11731C8DCD3200DED9CF /* TimeLineTextStyle.m */,
+			);
+			path = TextStyle;
 			sourceTree = "<group>";
 		};
 		A55665BED1F8DF567573B43C /* Frameworks */ = {
@@ -227,7 +315,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43CC117E1C8DCF9900DED9CF /* MakeCollectionViewCell.m in Sources */,
+				43CC11771C8DCD3200DED9CF /* TFSpecsStyle.m in Sources */,
 				437F6E041C7FF2D60010864D /* ViewController.m in Sources */,
+				43CC117B1C8DCEAD00DED9CF /* RouterHelper.m in Sources */,
+				43CC11761C8DCD3200DED9CF /* TimeLineTextStyle.m in Sources */,
 				437F6E011C7FF2D60010864D /* AppDelegate.m in Sources */,
 				437F6E0A1C7FF2D60010864D /* CSLYQ.xcdatamodeld in Sources */,
 				437F6DFE1C7FF2D60010864D /* main.m in Sources */,
@@ -341,6 +433,7 @@
 			baseConfigurationReference = 1123CA6D2EE95A9D7A0BD010 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "CSLYQ/CSLYQ-Prefix.pch";
 				INFOPLIST_FILE = CSLYQ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = time.CSLYQ;
@@ -353,6 +446,7 @@
 			baseConfigurationReference = C621B43B0AF61CD2D815D914 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "CSLYQ/CSLYQ-Prefix.pch";
 				INFOPLIST_FILE = CSLYQ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = time.CSLYQ;

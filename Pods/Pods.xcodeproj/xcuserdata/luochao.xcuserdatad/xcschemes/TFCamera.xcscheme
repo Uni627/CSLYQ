@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '64B7C590332B0C01E9D06AFC'
+               BlueprintIdentifier = '5275849A3622A0E2C0BC4B65'
                BlueprintName = 'TFCamera'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libTFCamera.a'>
